@@ -1,0 +1,21 @@
+{
+    "networks": {
+      "private": {
+        "networkUrl": "http://127.0.0.1:20336",
+        "gasPrice": 0,
+        "gasLimit": 30000000
+      },
+      "test": {
+        "networkUrl": "https://cepheus5.onyxpay.co:20336",
+        "gasPrice": 500,
+        "gasLimit": 30000000
+      },
+      "main": {
+        "networkUrl": "https://andromeda-sync.onyxpay.co:20336",
+        "gasPrice": 500,
+        "gasLimit": 30000000
+      }
+    },
+    "defaultNet": "private"
+  }
+  

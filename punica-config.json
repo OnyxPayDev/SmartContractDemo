@@ -1,0 +1,19 @@
+{
+  "networks": {
+    "test": {
+      "host": "https://cepheus5.onyxpay.co",
+      "port": 20336
+    },
+    "main": {
+      "host": "https://andromeda-sync.onyxpay.co",
+      "port": 20336
+    },
+    "private": {
+      "host": "http://127.0.0.1",
+      "port": 20336,
+      "gasPrice": 0,
+      "gasLimit": 30000000
+    }
+  },
+  "defaultNet":"private"
+}

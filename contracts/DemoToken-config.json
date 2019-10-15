@@ -1,0 +1,25 @@
+{
+  "defaultWallet": "wallet.json",
+  "password": {
+    "ATwo3VeAj4JnDY2uP1aKWS4p5LhyFHJeiE": "123"
+  },
+  "deployConfig": {
+    "name": "DemoToken ",
+    "version": "1.0",
+    "author": "OnyxPayDev",
+    "email": "info@onyxpay.co",
+    "desc": "A demo token contract",
+    "needStorage": true,
+    "payer": "ATwo3VeAj4JnDY2uP1aKWS4p5LhyFHJeiE",
+    "gasPrice": 500,
+    "gasLimit": 31000000
+  },
+  "invokeConfig": {
+    "abi": "DemoToken.abi.json",
+    "defaultPayer": "ATwo3VeAj4JnDY2uP1aKWS4p5LhyFHJeiE",
+    "gasPrice": 500,
+    "gasLimit": 20000,
+    "sleepTime": 6,
+    "functions": []
+  }
+}
